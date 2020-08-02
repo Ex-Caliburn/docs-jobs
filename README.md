@@ -24,10 +24,10 @@
 ```json
 {
   "data": {
-    "name": '', // 名字
-    "phone": '', // 手机
-    "info": '', // 企业信息
-    "hasAuth": '', // 是否认证
+    "name": "", // 名字
+    "phone": "", // 手机
+    "info": "", // 企业信息
+    "hasAuth": "", // 是否认证
   },
   "err_code": 0,
   "err_msg": "success"
@@ -104,7 +104,7 @@
 ```json
 {
   "data": {
-    autoPassAudit: 1, // 1 是， 0 否
+    "autoPassAudit": 1, // 1 是， 0 否
     ...
   },
   "err_code": 0,
@@ -159,10 +159,10 @@
 {
   "data": {
     list: [{
-      name: '',
-      address: '',
-      salary: '',
-      status: '',
+      "name": "",
+      "address": "",
+      "salary": "",
+      "status": "",
     }],
     count: 1,
   },
@@ -190,13 +190,13 @@
 ```json
 {
   "data": [{
-      name: '小时工',
+      "name": "小时工",
       id: 1,
     },{
-      name: '长期兼职',
+      "name": "长期兼职",
       id: 2,
     },{
-      name: '按天计酬',
+      "name": "按天计酬",
       id: 3,
     }],
   "err_code": 0,
